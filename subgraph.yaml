@@ -7,6 +7,7 @@ dataSources:
     network: mainnet
     source:
       address: "0xAe56CA4D71e7312e8500a601AF08756F74fBE3ef"
+      startBlock: 2900000
       abi: IdentityFactory
     mapping:
       kind: ethereum/events
@@ -26,6 +27,7 @@ dataSources:
     network: mainnet
     source:
       address: "0x672af58B94683cBcd2De173c5940d49Deb4cF5E6"
+      startBlock: 2900000
       abi: NameService
     mapping:
       kind: ethereum/events
@@ -51,6 +53,7 @@ dataSources:
     network: mainnet
     source:
       address: "0x846C21ca60f513a101C2Ab8c718Da43C78BD5035"
+      startBlock: 2900000
       abi: Controller
     mapping:
       kind: ethereum/events
