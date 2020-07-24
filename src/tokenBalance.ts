@@ -196,7 +196,7 @@ export function updatePackableBalance(walletAddress: string, tokenAddress: strin
 }
 
 export function getBalance(address: Address): BigInt {
-    let contractAddress = "0x5949dfB697785aE91675835dd094386B44d5251f";
+    let contractAddress = "0x9e8C079C276fE6dD7F87cDAc7162E645e4Db90Fb";
     let contract = Balance.bind(Address.fromString(contractAddress) as Address);
     let balance = contract.try_getBalance(address);
   
