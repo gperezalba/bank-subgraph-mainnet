@@ -28,7 +28,7 @@ export function handleDeployIdentity(event: DeployIdentity): void {
 
   createOfficialName(
     event.params.owner, 
-    ("Wallet propietario (").concat(event.params.name).concat(")")
+    ("Comisión de Red (").concat(event.params.name).concat(")")
   );
 
   IdentityTemplate.create(event.params.identity);
